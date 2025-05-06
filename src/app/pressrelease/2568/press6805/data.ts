@@ -1,6 +1,15 @@
 export const DataPressrelease = {
   navItems: [
     {
+      name: `๓ พฤษภาคม ๒๕๖๘`,
+      backgroundImage: "/images/ข่าวประชาสัมพันธ์/2568/พฤษภาคม/9/01.webp",
+      date: "2 พฤษภาคม 2568",
+      description: ` 
+วิทยาลัยเทคนิคกันทรลักษ์ จัดโครงการประชุมผู้ปกครอง เเละลงทะเบียนนักศึกษา ระดับประกาศนียบัตรวิชชีพ (ปวช.)  
+...`,
+      href: "/pressrelease/2568/press6805/press9",
+    },
+    {
       name: `วิทยาลัยเทคนิคกันทรลักษ์`,
       backgroundImage: "/images/ข่าวประชาสัมพันธ์/2568/พฤษภาคม/8/1.webp",
       date: "2 พฤษภาคม 2568",
