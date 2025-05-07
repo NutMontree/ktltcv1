@@ -8,12 +8,10 @@ import { Button, ConfigProvider, Space } from "antd";
 import { AntDesignOutlined } from "@ant-design/icons";
 
 export default function ShowPressRelease() {
-
   return (
     <>
       <div className="relative z-20 overflow-hidden lg:pt-[40px]">
         <div className="">
-          {/*   title title title title title title title title title title title title title title title title title title */}
           <div className="grid grid-flow-col py-4">
             <div className="justify-items-start">
               <div className="grid grid-flow-col">
@@ -41,12 +39,6 @@ export default function ShowPressRelease() {
               </div>
             </div>
           </div >
-          {/*   title title title title title title title title title title title title title title title title title title */}
-          <div className="grid grid-flow-col">
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
-            </div>
-          </div>
-
         </div>
       </div>
     </>

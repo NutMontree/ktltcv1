@@ -1,12 +1,7 @@
 "use client"; // top to the file
-
-import { Accordion, AccordionItem } from "@nextui-org/react";
 import { AntDesignOutlined } from '@ant-design/icons';
 import { Button, ConfigProvider, Space } from 'antd';
 import { createStyles } from 'antd-style';
-import Pressrelease2566 from "./2566/page";
-import Pressrelease2567 from "./2567/page";
-// import Pressrelease2568 from "./2568/page";
 import Link from "next/link";
 
 const useStyle = createStyles(({ prefixCls, css }) => ({
@@ -72,7 +67,7 @@ export default function PressReleasePage() {
       <div className="pt-20">
         <div className="grid gap-4">
           <div>
-            <Link href='https://ktltc.vercel.app/pressrelease/2568/'>
+            <Link href='https://ktltc.vercel.app/pressrelease/2568'>
               <ConfigProvider
                 button={{
                   className: styles.linearGradientButton,
@@ -87,7 +82,7 @@ export default function PressReleasePage() {
             </Link>
           </div>
           <div>
-            <Link href='https://ktltcv1.vercel.app/pressrelease/2567/'>
+            <Link href='https://ktltcv1.vercel.app/pressrelease/2567'>
               <ConfigProvider
                 button={{
                   className: styles.linearGradientButton,
@@ -102,7 +97,7 @@ export default function PressReleasePage() {
             </Link>
           </div>
           <div>
-            <Link href='https://ktltcv1.vercel.app/pressrelease/2566/'>
+            <Link href='https://ktltcv1.vercel.app/pressrelease/2566'>
               <ConfigProvider
                 button={{
                   className: styles.linearGradientButton,

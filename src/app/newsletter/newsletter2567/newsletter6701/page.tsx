@@ -3,12 +3,12 @@
 import { Data } from "./data";
 
 import NextLink from "next/link";
-import NewsletterPage from "../../page";
+import Newsletter2567 from "../page";
 
 export default function Newsletter6701() {
   return (
     <>
-      <NewsletterPage />
+      <Newsletter2567 />
 
       <div>
         <h1 className="flex justify-center text-xl text-[#DAA520] pt-8">

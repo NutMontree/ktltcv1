@@ -1,14 +1,14 @@
 "use client"; // top to the file
 
 import NextLink from "next/link";
-import NewsletterPage from "../../page";
 
 import { Data66 } from "./data";
+import Newsletter2566 from "../page";
 
 export default function Newsletter66() {
   return (
     <>
-      <NewsletterPage />
+      <Newsletter2566 />
 
       <div>
         <h1 className="flex justify-center text-xl text-[#DAA520] pt-8">

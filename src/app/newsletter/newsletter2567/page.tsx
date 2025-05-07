@@ -1,11 +1,16 @@
+"use client"; // top to the file
 import Link from "next/link";
-import { Button } from "antd";
+import { Button } from 'antd';
 
-export default function Newsletter() {
+import PressReleasePage from "@/app/pressrelease/page";
+
+export default function Newsletter2567() {
   return (
     <>
+      <PressReleasePage />
+
       <div>
-        <div className="gap-2 grid">
+        <div className="grid gap-4 pt-20 pb-4">
           <div>
             <Button color="primary">
               <Link
