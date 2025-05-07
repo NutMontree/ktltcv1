@@ -1,15 +1,13 @@
 "use client"; // top to the file
 
-import PressReleasePage from "../../page";
-
 import NextLink from "next/link";
 import { DataPressrelease } from "./data";
+import Pressrelease2567 from "../page";
 
 export default function Pressrelease6710() {
   return (
     <>
-      <PressReleasePage />
-
+      <Pressrelease2567 />
       <div>
         <h1 className="flex justify-center text-xl text-[#DAA520] pt-8">
           เดือน กรกฏาคม 2567

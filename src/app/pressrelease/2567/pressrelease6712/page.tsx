@@ -1,14 +1,13 @@
 "use client"; // top to the file
 
-import PressReleasePage from "../../page";
-
+import Pressrelease2567 from "../page";
 import NextLink from "next/link";
 import { DataPressrelease } from "./data";
 
 export default function Pressrelease6710() {
   return (
     <>
-      <PressReleasePage />
+      <Pressrelease2567 />
 
       <div>
         <h1 className="flex justify-center text-xl text-[#DAA520] pt-8">
@@ -22,9 +21,8 @@ export default function Pressrelease6710() {
             className=" 
             grid gap-1 
             grid-cols-2 
-            md:grid-cols-4 
- 
-                      "
+            md:grid-cols-4
+            "
           >
             {DataPressrelease.navItems.map((item) => (
               <NextLink key={item.href} href={item.href}>

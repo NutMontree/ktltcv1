@@ -1,9 +1,8 @@
 "use client"; // top to the file
 
 import NextLink from "next/link";
-
-import { Data66 } from "./data";
 import Newsletter2566 from "../page";
+import { Data66 } from "./data";
 
 export default function Newsletter66() {
   return (

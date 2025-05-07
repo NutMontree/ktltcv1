@@ -1,14 +1,13 @@
 "use client"; // top to the file
 
 import NextLink from "next/link";
-import PressReleasePage from "../../page";
-
+import Pressrelease2566 from "../page";
 import { DataPressrelease6611 } from "./data";
 
 export default function Pressrelease6611() {
   return (
     <>
-      <PressReleasePage />
+      <Pressrelease2566 />
 
       <div>
         <h1 className="flex justify-center text-xl text-[#DAA520] pt-8">
