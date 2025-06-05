@@ -7,6 +7,7 @@ export default function Newsletter2566() {
   return (
     <>
       <NewsletterPage />
+
       <div className="grid gap-4 pt-20 pb-4">
         <div>
           <Button color="primary">

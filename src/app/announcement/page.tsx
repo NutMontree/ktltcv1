@@ -73,7 +73,7 @@ export default function AnnouncementPage() {
               >
                 <Space>
                   <Button type="primary" size="large" icon={<AntDesignOutlined />}>
-                    จดหมายข่าว ปีการศึกษา 2568
+                    ข่าวประกาศ ปีการศึกษา 2568
                   </Button>
                 </Space>
               </ConfigProvider>
@@ -88,14 +88,14 @@ export default function AnnouncementPage() {
               >
                 <Space>
                   <Button type="primary" size="large" icon={<AntDesignOutlined />}>
-                    จดหมายข่าว ปีการศึกษา 2567
+                    ข่าวประกาศ ปีการศึกษา 2567
                   </Button>
                 </Space>
               </ConfigProvider>
             </Link>
           </div>
           <div>
-            <Link href='https://ktltcv1.vercel.app/announcement/newsletter2566'>
+            <Link href='https://ktltcv1.vercel.app/announcement/announcement2566'>
               <ConfigProvider
                 button={{
                   className: styles.linearGradientButton,
@@ -103,7 +103,7 @@ export default function AnnouncementPage() {
               >
                 <Space>
                   <Button type="primary" size="large" icon={<AntDesignOutlined />}>
-                    จดหมายข่าว ปีการศึกษา 2566
+                    ข่าวประกาศ ปีการศึกษา 2566
                   </Button>
                 </Space>
               </ConfigProvider>

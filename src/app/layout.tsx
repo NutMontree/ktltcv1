@@ -40,14 +40,14 @@ export default function RootLayout({
             defaultTheme="light"
           >
             <CookieConsentBanner />
-            {/* <div className="py-2">
+            <div className="py-2">
               <TopHeader />
-            </div> */}
-            {/* <div className="pb-20">
+            </div>
+            <div className="pb-20">
               <Header />
-            </div> */}
+            </div>
             {children}
-            {/* <Footer /> */}
+            <Footer />
             <FloatingNavDemo />
             <ScrollToTop />
           </ThemeProvider>

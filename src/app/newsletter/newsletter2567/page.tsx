@@ -9,6 +9,7 @@ export default function Newsletter2567() {
   return (
     <>
       <NewsletterPage />
+
       <div>
         <div className="grid gap-4 pt-20 pb-4">
           <div>

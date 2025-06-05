@@ -1,15 +1,11 @@
-// announcement
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <section>
-      <div
-        className="
-     container py-8
-      "
-      >{children}</div>
+      <div className="flex justify-center">
+      </div>
+      <div className="container py-12">
+        {children}
+      </div>
     </section>
   );
 }
-//  px-4 py-4
-//       lg:px-12
-//       sm:px-12  
