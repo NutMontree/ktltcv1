@@ -3,13 +3,7 @@ import { AntDesignOutlined } from '@ant-design/icons';
 import { Button, ConfigProvider, Space } from 'antd';
 import { createStyles } from 'antd-style';
 import Link from "next/link";
-import ShowBidding from "./showbidding/page";
-import ShowNewsletter from "./shownewsletter/page";
-import ShowFacebook from "@/components/ShowFacebook";
-import ShowAnnouncement from "./showannouncement/page";
 import ScrollVelocity from "@/components/Scrollvelocity";
-import ShowTechnicalcollegeorders from "./showtechnicalcollegeorders/page";
-import ShowPressRelease from './showpressrelease/page';
 
 const useStyle = createStyles(({ prefixCls, css }) => ({
   linearGradientButton: css`
@@ -66,24 +60,6 @@ export default function Home() {
           </div>
         </div >
       </Link>
-      <div className="container py-[48px] ">
-        <ScrollVelocity />
-      </div>
-      <div className="container">
-        <ShowPressRelease />
-      </div>
-      <div className="container py-[48px]">
-        <ShowNewsletter />
-      </div>
-      <div className="container py-[48px]">
-        <ShowAnnouncement />
-      </div>
-      <div className="container py-[48px]">
-        <ShowBidding />
-      </div>
-      <div className="container py-[48px]">
-        <ShowTechnicalcollegeorders />
-      </div>
     </main>
   );
 }
