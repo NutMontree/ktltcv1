@@ -54,7 +54,7 @@ export default function NewsletterPage() {
                   <span className="text-body-color dark:text-dark-6">
                     /
                   </span>
-                  pressrelease
+                  newsletter
                 </p>
               </li>
             </ul>
