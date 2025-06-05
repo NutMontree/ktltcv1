@@ -22,22 +22,7 @@ export default function ShowAnnouncement() {
                 </div>
               </div>
             </div>
-            <div className="justify-items-end">
-              <div className=" ">
-                <ConfigProvider  >
-                  <Space>
-                    <Button
-                      type="primary"
-                      size="large"
-                      icon={<AntDesignOutlined />}
-                      href="/announcement"
-                    >
-                      เนื้อหาเพิ่มเติม
-                    </Button>
-                  </Space>
-                </ConfigProvider>
-              </div>
-            </div>
+
           </div >
         </div>
       </div>
