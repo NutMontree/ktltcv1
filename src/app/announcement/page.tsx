@@ -65,7 +65,7 @@ export default function AnnouncementPage() {
       <div className="pt-20">
         <div className="grid gap-4">
           <div>
-            <Link href='https://ktltc.vercel.app/announcement/newsletter2568'>
+            <Link href='https://ktltc.vercel.app/announcement/announcement2568'>
               <ConfigProvider
                 button={{
                   className: styles.linearGradientButton,
@@ -80,7 +80,7 @@ export default function AnnouncementPage() {
             </Link>
           </div>
           <div>
-            <Link href='https://ktltcv1.vercel.app/announcement/newsletter2567'>
+            <Link href='https://ktltcv1.vercel.app/announcement/announcement2567'>
               <ConfigProvider
                 button={{
                   className: styles.linearGradientButton,
