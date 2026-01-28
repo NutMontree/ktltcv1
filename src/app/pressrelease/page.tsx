@@ -67,7 +67,22 @@ export default function PressReleasePage() {
       <div className="pt-20">
         <div className="grid gap-4">
           <div>
-            <Link href='https://ktltc.vercel.app/pressrelease/2568'>
+            <Link href='https://ktltc.vercel.app/news'>
+              <ConfigProvider
+                button={{
+                  className: styles.linearGradientButton,
+                }}
+              >
+                <Space>
+                  <Button type="primary" size="large" icon={<AntDesignOutlined />}>
+                    ข่าวประชาสัมพันธ์ ปีการศึกษา 2568
+                  </Button>
+                </Space>
+              </ConfigProvider>
+            </Link>
+          </div>
+          <div>
+            <Link href='https://ktltcv3.vercel.app/pressrelease/2568'>
               <ConfigProvider
                 button={{
                   className: styles.linearGradientButton,
